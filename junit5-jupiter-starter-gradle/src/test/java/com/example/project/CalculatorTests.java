@@ -44,6 +44,6 @@ class CalculatorTests {
             {
             // this part is executed when an exception (in this example InterruptedException) occurs
             }
-            Assert.fail("fail");
+            assertEquals(2,3);
 	}
 }
