@@ -29,10 +29,10 @@ class CalculatorTests {
 
 	@ParameterizedTest(name = "sleep {0} + {1} = {2}")
 	@CsvSource({
-			"0,    1,   1",
-			"1,    2,   3",
-			"49,  51, 100",
-			"1,  100, 101"
+			"5,    1,   1",
+			"5,    2,   3",
+			"10,  51, 100",
+			"5,  100, 101"
 	})
 	void add(int first, int second, int expectedResult) {
  try 
