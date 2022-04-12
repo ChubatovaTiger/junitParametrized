@@ -27,7 +27,7 @@ class CalculatorTests {
 		assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
 	}*/
 
-	@ParameterizedTest(name = "sleep {0} + {1} = {2}")
+	@ParameterizedTest(name = "Sleep {0} + {1} = {2}")
 	@CsvSource({
 			"5,    1,   1",
 			"5,    2,   3",
